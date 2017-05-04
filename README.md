@@ -1,4 +1,4 @@
-
+#Sample of React-Redux
 
 ##I18N
 #####1.	Why choose react-redux-i18n
