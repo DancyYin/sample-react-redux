@@ -1,0 +1,69 @@
+
+
+@font-face {
+  font-family: 'HPSimplifiedRegular';
+  src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified_Rg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HPSimplifiedLightRegular';
+  src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HPSimplifiedBold';
+  src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HPSimplifiedBoldItalic';
+  src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified-BoldItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HPSimplifiedItalic';
+  src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html { font-size: 16px!important; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body {
+  background: white !important;
+}
+
+button{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: "HPSimplified_Rg", Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 9px 1rem;
+  font-size: 1rem;
+  background-color: #0197D6;
+  border-color: #007095;
+  color: #FFF;
+  transition: background-color 300ms ease-out;
+}
+
+a:hover, a:focus, h1:hover {
+  color: initial !important;
+}
+
+
+

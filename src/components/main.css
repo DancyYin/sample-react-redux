@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: 'HPSimplifiedRegular';
+    src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified_Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HPSimplifiedLightRegular';
+    src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HPSimplifiedBold';
+    src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HPSimplifiedBoldItalic';
+    src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HPSimplifiedItalic';
+    src: url('https://www.hpconnected.com/public/stylesheets/fonts/hpcfont/HPSimplified-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

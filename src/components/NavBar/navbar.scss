@@ -1,0 +1,296 @@
+@import "../../styles/app";
+$header-bg: #074E68;
+$subnav-link-padding: 0.9rem;
+$subnav-font-size: 0.75rem;
+$subnav-link-opacity: 0.15;
+$header-height: 2.5rem;
+$transition: all .35s ease-in-out;
+
+:global {
+  .countryFlag {
+    display: inline-block;
+    margin-right: 2px;
+    height: 11px;
+    width: 16px;
+    background-image: url(../../img/flags.png);
+    background-repeat: no-repeat;
+  }
+
+  .insideFlag {
+    float: right;
+    margin: 34px 15px 0 15px;
+    border-radius: 0;
+  }
+  .insideFlag.flag_ca,
+  .insideFlag.flag_be,
+  .insideFlag.flag_ch{
+    margin-right: 0px;
+  }
+
+  .outsideFlag {
+    float: right;
+    margin: 34px 0px 0 15px;
+    border-radius: 0;
+  }
+
+  .navbar-nav>li>a {
+    display: inline-block;
+  }
+
+  .navbar__flag>li:before {
+    height: 11px;
+    width: 16px;
+    background-image: url(../../img/flags.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .flag_lu {
+    background-position: 0 0;
+  }
+
+  .flag_mx {
+    background-position: 0 -11px;
+  }
+
+  .flag_nl {
+    background-position: 0 -22px;
+  }
+
+  .flag_it {
+    background-position: 0 -33px;
+  }
+
+  .flag_jp {
+    background-position: 0 -44px;
+  }
+
+  .flag_kr {
+    background-position: 0 -55px;
+  }
+
+  .flag_nz {
+    background-position: 0 -66px;
+  }
+
+  .flag_se{
+    background-position: 0 -77px;
+  }
+
+  .flag_uk {
+    background-position: 0 -88px;
+  }
+
+  .flag_us {
+    background-position: 0 -99px;
+  }
+
+  .flag_pl {
+    background-position: 0 -110px;
+  }
+
+  .flag_pt {
+    background-position: 0 -121px;
+  }
+
+  .flag_ru {
+    background-position: 0 -132px;
+  }
+
+  .flag_br {
+    background-position: 0 -143px;
+  }
+
+  .flag_ca,
+  .flag_ca:before{
+    background-position: 0 -154px;
+  }
+
+  .flag_ch,
+  .flag_ch:before{
+    background-position: 0 -165px;
+  }
+
+  .flag_at {
+    background-position: 0 -176px;
+  }
+
+  .flag_au {
+    background-position: 0 -187px;
+  }
+
+  .flag_be,
+  .flag_be:before{
+    background-position: 0 -198px;
+  }
+
+  .flag_cn {
+    background-position: 0 -209px;
+  }
+
+  .flag_fr {
+    background-position: 0 -220px;
+  }
+
+  .flag_ie {
+    background-position: 0 -231px;
+  }
+
+  .flag_in{
+    background-position: 0 -242px;
+  }
+
+  .flag_de {
+    background-position: 0 -253px;
+  }
+
+  .flag_dk {
+    background-position: 0 -264px;
+  }
+
+  .flag_es {
+    background-position: 0 -275px;
+  }
+
+  .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    color: #fff;
+    background-color: #eee;
+  }
+
+  .dropdown-menu > li > a {
+    padding: 3px 5px;
+  }
+
+  .navbar-toggle {
+    margin-top: 22px;
+  }
+
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+  }
+
+  .navbar-header {
+    height: 80px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar__barlink > a {
+      height: 40px !important;
+      line-height: 30px !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .navbar__barlink > a {
+      height: 70px !important;
+      line-height: 50px !important;
+    }
+  }
+
+}
+
+
+
+  .headernav {
+    float: none;
+   
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+    }
+
+   .headernav li {
+    display: inline-block;
+    } 
+
+    .headernav li a {
+      padding: 14px 16px;;
+      font-size: $subnav-font-size;
+      color: black;
+      text-transform: uppercase;
+      display: block;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: $transition;
+      text-decoration:none;
+      }
+
+   .headernav li  a:active {
+        background: #337ab7;
+
+      }
+     .headernav li  a:hover {
+         background: #337ab7;
+        transition: $transition;
+      }
+      .headernav li  a:focus {
+        background: #337ab7;
+      }
+       .headernav li  a:visited {
+        background: #337ab7;
+      }
+
+.toplink{
+  line-height: 78px !important;
+  padding: 0 15px;
+}
+.toplink:hover{
+  text-decoration: none;
+}
+
+.useremail{
+  height: 70px !important;
+  line-height: 50px !important;
+  padding-right: 10px;
+}
+
+.togglelist{
+  width: 50%;
+}
+
+.nav{
+  min-height: 70px;
+  background-color: white;
+  border:none;
+}
+
+.hpLogo{
+  display: inline-block !important;
+  width:54px;
+  height:54px;
+}
+
+.barlink ul[role=menu]{
+  left:0;
+  min-width: 400px;
+}
+
+.flag:before{
+  display: inline-block;
+  height: 11px;
+  width: 16px;
+  background-image: url(../../img/flags.png);
+  background-repeat: no-repeat;
+  content: '';
+  margin-left: 10px;
+}
+
+
+.barlink ul[aria-labelledby=nav-language-dropdown]{
+  left: 25px;
+  min-width: 100px;
+}
+
+.barlink ul[aria-labelledby=nav-settings-dropdown]{
+  min-width: 180px;
+}
+
+@media (min-width: 768px){
+  .flaglist{
+    width: 50%;
+    display: inline-block;
+  }
+}
+
+

@@ -1,0 +1,21 @@
+//@import "../constainers/gnbHeader";
+
+#countrySelector{
+     max-width: 400px!important;
+
+    .popover-content{
+      padding: 9px 10px !important;
+    }
+    .flagSelector{
+        width:400px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+        .flagSelectorCol {
+          margin-bottom: 5px;
+          padding-left: 5px !important;
+          padding-right: 5px !important;
+          cursor: default;
+        }
+    }
+}

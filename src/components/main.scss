@@ -1,0 +1,33 @@
+@import "../styles/app";
+
+.sectionBackground {
+  background-image: url(../img/background_landing.jpg);
+  height: 650px;
+  background-size: cover;
+  background-position: 50% top;
+}
+
+
+.homepagebackground {
+  background-image: url(../img/background_landing.jpg);
+  height: 430px;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.pc_printer {
+  background-image: url(../img/pc_printer.jpg);
+  height: 430px;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.sprout {
+  background-image: url(../img/sprout.jpg);
+  height: 430px;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
